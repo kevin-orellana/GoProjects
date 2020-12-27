@@ -5,11 +5,11 @@ import (
 	"strconv"
 )
 
-func TestErrorHandling(){
+func TestErrorHandling() {
 	handleStringConversionError()
 }
 
-func handleStringConversionError()  {
+func handleStringConversionError() {
 	var string1 string
 	var int1 int
 	var err error
@@ -21,6 +21,6 @@ func handleStringConversionError()  {
 	if err != nil {
 		fmt.Println("Error is ", err)
 	} else {
-		fmt.Printf("Converted number %d", int1)
+		fmt.Printf("Converted number %d\n", int1)
 	}
 }

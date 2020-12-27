@@ -2,13 +2,13 @@ package Challenges
 
 import "fmt"
 
-func TestControlStructures(){
+func TestControlStructures() {
 	//ifElseStructures()
 	//switchCaseExample()
 	//forLoopExample()
 	//breakContinueExample()
 	//labelsExample()
-	goToExample()
+	//goToExample()
 }
 
 func ifElseStructures() {
@@ -32,36 +32,42 @@ func ifElseStructures() {
 	}
 }
 
-func switchCaseExample(){
-	var num1 int = 100;
+func switchCaseExample() {
+	var num1 int = 100
 	switch num1 {
-	case 1, 2, 3: {
+	case 1, 2, 3:
+		{
 			fmt.Println("1, 2 or 3")
 		}
 	case 20:
 		fallthrough
-	case 100: {
+	case 100:
+		{
 			fmt.Println("value is ", num1)
 		}
-	default: {
+	default:
+		{
 			fmt.Println("default case")
 		}
 	}
 
-	switch num:= 10; {
-	case num1 < 0: {
-		println("number is negative")
-	}
-	case num > 0 && num < 10:  {
-		println("number is between 0 and 10")
-	}
-	default:{
-		println("numb is greater than 10")
-	}
+	switch num := 10; {
+	case num1 < 0:
+		{
+			println("number is negative")
+		}
+	case num > 0 && num < 10:
+		{
+			println("number is between 0 and 10")
+		}
+	default:
+		{
+			println("numb is greater than 10")
+		}
 	}
 }
 
-func forLoopExample(){
+func forLoopExample() {
 	for i := 0; i < 2; i++ {
 		fmt.Println("i", i)
 	}
@@ -74,7 +80,7 @@ func forLoopExample(){
 
 	var str2 string = "你好大家"
 	for i := 0; i < len(str2); i++ {
-		fmt.Printf("%d-%c  ",i, str2[i]) // will iterate through each byte in str1 which in this case may be 4 times 4
+		fmt.Printf("%d-%c  ", i, str2[i]) // will iterate through each byte in str1 which in this case may be 4 times 4
 	}
 	fmt.Println()
 
@@ -85,9 +91,9 @@ func forLoopExample(){
 	fmt.Println()
 }
 
-func breakContinueExample(){
-	for i:= 0; i < 3; i++ {
-		for j := 0;  j < 10; j++ {
+func breakContinueExample() {
+	for i := 0; i < 3; i++ {
+		for j := 0; j < 10; j++ {
 			if j > 5 {
 				break // breaks the inner most nested loop that iterates on j
 			}
@@ -100,8 +106,8 @@ func breakContinueExample(){
 	}
 }
 
-func labelsExample(){
-	LABEL1: // add a label for location
+func labelsExample() {
+LABEL1: // add a label for location
 	for i := 0; i <= 5; i++ {
 		for j := 0; j <= 5; j++ {
 			if j == 4 {
@@ -112,9 +118,9 @@ func labelsExample(){
 	}
 }
 
-func goToExample(){
+func goToExample() {
 	i := 0
-	IDENTIFIER1GOTO: // mark with colon
+IDENTIFIER1GOTO: // mark with colon
 	i++
 	if i == 5 {
 		fmt.Println("Exiting goToExaple")

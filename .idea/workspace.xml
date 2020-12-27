@@ -3,7 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="b9170412-2791-4a4c-a767-bea1c9c65631" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Challenges/Challenges.go" beforeDir="false" afterPath="$PROJECT_DIR$/Challenges/Challenges.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Challenges/ControlStructures.go" beforeDir="false" afterPath="$PROJECT_DIR$/Challenges/ControlStructures.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Challenges/ErrorHandling.go" beforeDir="false" afterPath="$PROJECT_DIR$/Challenges/ErrorHandling.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Challenges/Scope.go" beforeDir="false" afterPath="$PROJECT_DIR$/Challenges/Scope.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Challenges/SimpleFunctions.go" beforeDir="false" afterPath="$PROJECT_DIR$/Challenges/Functions.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
